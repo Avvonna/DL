@@ -17,23 +17,23 @@ dependencies = [
   "nbformat>=5.10.4",
   "wandb>=0.19.9",
   "albumentations>=2.0.6",
-  "ultralytics>=8.3.135",
+  "ultralytics>=8.3.140",
 ]
 
 [tool.uv.sources]
 torch = [
-  { index = "pytorch-cu124" },
+  { index = "pytorch-cu126" },
 ]
 torchvision = [
-  { index = "pytorch-cu124" },
+  { index = "pytorch-cu126" },
 ]
 torchaudio = [
-  { index = "pytorch-cu124" },
+  { index = "pytorch-cu126" },
 ]
 
 [[tool.uv.index]]
-name = "pytorch-cu124"
-url = "https://download.pytorch.org/whl/cu124"
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
 explicit = true
 
 [dependency-groups]
