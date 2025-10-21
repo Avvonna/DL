@@ -2,3 +2,4 @@ __pycache__
 uv.lock
 S/
 temp_*.ipynb
+.vscode
