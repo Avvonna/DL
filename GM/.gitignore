@@ -1,4 +1,5 @@
 data/
 checkpoints_imagegpt/
 checkpoints_glow/
+checkpoints_vq/
 clusters/
