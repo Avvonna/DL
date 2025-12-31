@@ -3,3 +3,6 @@ uv.lock
 S/
 temp_*.ipynb
 .vscode
+.env
+*.sqlite
+*.sqlite-journal
